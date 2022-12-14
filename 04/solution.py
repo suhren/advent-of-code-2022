@@ -2,7 +2,7 @@
 
 data = []
 
-with open("day4_input.txt", "r") as f:
+with open("input.txt", "r") as f:
     for line in f:
         indices = [int(i) for i in line.strip().replace("-", ",").split(",")]
         data.append(indices)

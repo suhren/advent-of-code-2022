@@ -12,7 +12,7 @@
 # (opponent_shape, my_shape)
 shapes = []
 
-with open("day2_input.txt", "r") as f:
+with open("input.txt", "r") as f:
     for line in f:
         shapes.append(line.split())
 

@@ -1,6 +1,6 @@
 # Part 1
 
-with open("day1_input.txt", "r") as f:
+with open("input.txt", "r") as f:
     chunks = f.read().split("\n\n")
 
 lists = [[int(line) for line in chunk.split()] for chunk in chunks]

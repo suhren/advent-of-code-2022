@@ -1,6 +1,6 @@
 # Part 1
 
-with open("day3_input.txt", "r") as f:
+with open("input.txt", "r") as f:
     rucksack_lines = f.read().split()
 
 def get_priority(char: str):
